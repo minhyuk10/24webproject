@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>김민혁의 홈페이지</title>
+  <style>
+    svg {
+      height: 120px;
+      width: 100%;
+    }
+    text {
+      fill: #cccccc;
+      font-size: 60px;
+      font-family: Verdana;
+    }
+    #cryptography {
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+    <svg height="120" width="100%">
+        <!-- <defs> 요소는 그래픽 객체를 정의, <def> 요소 내에서 만든 객체는 출력되는 것은 아님
+             나중에 사용하려면 fill 속성에 참조 연결하거나 <use> 요소를 이용해야함 
+             <def> 요소 내에 선형그레디언트 정의 -->
+        <defs>
+          <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgb(0,255,255);stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        <rect fill="url(#grad1)" x="0" y="0" width="100%" height="120" />
+        <text fill="#cccccc" font-size="60" font-family="Verdana" x="50" y="80">김민혁의 홈페이지</text>
+        Sorry, your browser does not support inline SVG.
+      </svg>  
+<nav>
+    <ul>
+        <li><a href="about.html">암호학 소개</a></li>
+        <li><a href="news.html">최신 암호학 뉴스</a></li>
+        <li><a href="tecnology.html">암호화 기술</a></li>
+        <li><a href="security.html">보안 취약점</a></li>
+    </ul>
+</nav>
+<main>
+    </section>
+    <section id="welcome">
+        <h2>환영합니다!</h2>
+        <p>여기에서 여러분을 환영합니다. 즐겁게 둘러보세요!</p>
+    </section>
+</main>
+</body>
+</html>
